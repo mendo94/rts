@@ -1,9 +1,11 @@
-import { Child } from "./Child";
+import { Example } from "./Child";
 
 export const Parent = () => {
   return (
     <div>
-      <Child color="red" />
+      <Example color="red" onClick={() => console.log("clicked")}>
+        heloooo
+      </Example>
     </div>
   );
 };
