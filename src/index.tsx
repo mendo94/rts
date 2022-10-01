@@ -20,5 +20,5 @@ const App = () => {
   );
 };
 
-// 5) Show the component on the screen
+// 5) Show the component on the screen.
 root.render(<App />);
