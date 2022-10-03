@@ -4,7 +4,7 @@ const EventComponent: React.FC = () => {
   };
 
   const onDragStart = (event: React.DragEvent<HTMLDivElement>) => {
-    console.log(event.bubbles);
+    console.log(event);
   };
   return (
     <div>
