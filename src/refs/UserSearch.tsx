@@ -9,6 +9,7 @@ const users = [
 const UserSearch: React.FC = () => {
   // html element or null at some points in type and begins with null
   const inputRef = useRef<HTMLInputElement | null>(null);
+  //OR  const inputRef = useRef<any>());
   const [name, setName] = useState("");
   const [user, setUser] = useState<{ name: string; age: number } | undefined>();
 
