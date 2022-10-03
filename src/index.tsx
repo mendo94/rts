@@ -16,6 +16,7 @@ const App = () => {
   return (
     <div>
       <EventComponent />
+      <UserSearch />
     </div>
   );
 };
